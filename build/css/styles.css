@@ -7345,3 +7345,21 @@ a.text-dark:hover, a.text-dark:focus {
   .hero p {
     font-size: 1.5rem; } }
 
+.author {
+  height: 2.5rem; }
+  .author button,
+  .author .portrait,
+  .author img {
+    height: 2.5rem;
+    width: 2.5rem; }
+
+main {
+  position: relative; }
+
+.background-strip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45rem; }
+
