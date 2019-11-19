@@ -1,0 +1,9 @@
+@mixin author($height) {
+  height: $height;
+  button,
+  .portrait,
+  img {
+    height: $height;
+    width: $height;
+  }
+}

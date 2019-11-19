@@ -1,0 +1,31 @@
+// Bootstrap
+@import '_vars.scss';
+@import '_mixins.scss';
+@import '_customize-bootstrap.scss';
+@import '~bootstrap/scss/bootstrap';
+
+.navbar {
+  svg {
+    fill: $gray-100;
+  }
+}
+
+.hero {
+  .author {
+    @include author(3.5rem);
+  }
+  svg {
+    fill: $gray-100;
+    width: 50%;
+  }
+  button:hover {
+    svg {
+      fill: $dark;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
