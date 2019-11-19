@@ -45,3 +45,9 @@ main {
   width: 100%;
   height: 45rem;
 }
+
+.subscribe {
+  .input-group-lg > .input-group-append > .btn {
+    font-size: 0.9rem;
+  }
+}
