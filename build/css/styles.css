@@ -7323,7 +7323,8 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.navbar svg {
+.navbar svg,
+footer svg {
   fill: #edf1ff; }
 
 .hero .author {
@@ -7365,4 +7366,37 @@ main {
 
 .subscribe .input-group-lg > .input-group-append > .btn {
   font-size: 0.9rem; }
+
+.support .card-img-overlay {
+  top: auto; }
+
+.client {
+  position: relative; }
+  .client .team {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+    height: 80%; }
+  .client .my-custom-input,
+  .client .custom-select,
+  .client .my-custom-textarea {
+    border: none;
+    border-bottom: 0.001rem solid #edf1ff;
+    font-size: 1.2rem; }
+    .client .my-custom-input:focus,
+    .client .custom-select:focus,
+    .client .my-custom-textarea:focus {
+      outline: none;
+      border-bottom-width: 0.5rem; }
+  .client .my-custom-textarea {
+    min-height: 7rem; }
+
+footer.container-fluid {
+  border-top: 0.001rem solid #edf1ff; }
+  footer.container-fluid .social svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #a3a7b7; }
+  footer.container-fluid .social li {
+    align-self: center; }
 

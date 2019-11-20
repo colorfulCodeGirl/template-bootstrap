@@ -4,7 +4,8 @@
 @import '_customize-bootstrap.scss';
 @import '~bootstrap/scss/bootstrap';
 
-.navbar {
+.navbar,
+footer {
   svg {
     fill: $gray-100;
   }
@@ -49,5 +50,49 @@ main {
 .subscribe {
   .input-group-lg > .input-group-append > .btn {
     font-size: 0.9rem;
+  }
+}
+
+.support {
+  .card-img-overlay {
+    top: auto;
+  }
+}
+
+.client {
+  position: relative;
+  .team {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+    height: 80%;
+  }
+  .my-custom-input,
+  .custom-select,
+  .my-custom-textarea {
+    border: none;
+    border-bottom: 0.001rem solid $gray-100;
+    font-size: 1.2rem;
+    &:focus {
+      outline: none;
+      border-bottom-width: 0.5rem;
+    }
+  }
+  .my-custom-textarea {
+    min-height: 7rem;
+  }
+}
+
+footer.container-fluid {
+  border-top: 0.001rem solid $gray-100;
+  .social {
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      fill: $gray-600;
+    }
+    li {
+      align-self: center;
+    }
   }
 }
