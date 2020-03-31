@@ -7373,10 +7373,14 @@ main {
 .client {
   position: relative; }
   .client .team {
+    display: none;
     position: absolute;
     bottom: 5rem;
     right: 0;
     height: 80%; }
+    @media (min-width: 900px) and (orientation: landscape) {
+      .client .team {
+        display: block; } }
   .client .my-custom-input,
   .client .custom-select,
   .client .my-custom-textarea {

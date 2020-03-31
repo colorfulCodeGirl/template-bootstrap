@@ -62,10 +62,14 @@ main {
 .client {
   position: relative;
   .team {
+    display: none;
     position: absolute;
     bottom: 5rem;
     right: 0;
     height: 80%;
+    @media (min-width: 900px) and (orientation: landscape) {
+      display: block;
+    }
   }
   .my-custom-input,
   .custom-select,
